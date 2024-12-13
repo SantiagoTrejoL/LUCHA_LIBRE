@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Definición del charset utilizado para la codificación de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Definición de la vista para dispositivos móviles, asegurando la escalabilidad adecuada -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descripción del sitio web para motores de búsqueda -->
+    <meta name="description" content="Lucha Libre Nacional e Internacional">
+    <!-- Título de la página que se muestra en la pestaña del navegador -->
+    <title>Lucha Libre</title>
+
+    <!-- Enlace a la fuente tipográfica Inter desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Enlace a la hoja de estilos de Bootstrap para diseñar el layout -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace al favicon que aparece en la pestaña del navegador -->
+    <link rel="icon" type="image/png" href="../images/icono.png">
+    <!-- Enlace a la hoja de estilos personalizada para esta página -->
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <!-- Header del sitio, contiene la barra de navegación -->
+    <header>
+        <!-- Barra de navegación principal -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- Logo de la página que redirige al índice -->
+                <a class="navbar-brand" href="index.html" aria-label="Inicio">
+                    <img src="../images/icono.png" alt="Logo" width="300">
+                </a>
+                <!-- Botón para activar la visualización del menú en dispositivos pequeños -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"> <!-- Inicia Elemento de lista de navegación -->
+                            <a class="nav-link text-blue" href="index.html" id="inicio">Inicio</a>
+                        </li> <!-- Termina Elemento de lista de navegación -->
+
+                        <li class="nav-item">
+                            <a class="nav-link text-blue" href="mexicana.html" id="mexicana">Lucha Libre Mexicana</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-blue" href="americana.html" id="americana">Lucha Libre Americana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-blue" href="japonesa.html" id="japonesa">Lucha Libre Japonesa</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección principal de la página -->
+    <main>
+        <!-- Sección del carrusel de imágenes -->
+        <section id="carousel">
+            <div id="news" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/imagen1.jpg" class="d-block w-100" alt="Facultad de Informatica">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen10.png" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen8.jpg" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen3.jpg" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen7.jpg" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen15.png" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen5.jpg" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/imagen2.jpg" class="d-block w-100" alt="Segunda imagen">
+                    </div>
+                </div>
+
+                <!-- Controles de navegación para el carrusel -->
+                <a class="carousel-control-prev" href="#news" role="button" data-slide="prev" aria-label="Anterior">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#news" role="button" data-slide="next" aria-label="Siguiente">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="about_us">
+            <div class="about_us_text">
+                <h2>¿Qué es la Lucha Libre?</h2>
+                <p>La lucha libre es una forma de deporte-espectáculo que combina elementos de competencia deportiva, 
+                    teatro y acrobacias. Es particularmente popular en países como México, Japón y Estados Unidos, 
+                    aunque tiene presencia en otras partes del mundo.</p>
+
+                <h2>Características principales:</h2>
+                <section>
+                    <h3>Atletas o luchadores</h3>
+                    <p>Los participantes suelen adoptar personajes o identidades conocidas como <em>gimmicks</em>, que pueden ser héroes (<strong>"técnicos"</strong>) o villanos (<strong>"rudos"</strong>).</p>
+                    <p>En México, es común que los luchadores usen <strong>máscaras</strong>, las cuales son símbolos de su personaje y tradición. Perder la máscara en una lucha es considerado una gran derrota.</p>
+
+                    <h3>Estilo y reglas</h3>
+                    <p>La lucha libre tiene reglas propias, con movimientos espectaculares como llaves, vuelos, saltos y acrobacias.</p>
+                    <p>Existen diferentes tipos de combates: individuales, en parejas, en equipos o especiales, como las luchas de apuestas (<em>máscara contra máscara</em> o <em>máscara contra cabellera</em>).</p>
+                
+                    <h3>Aspecto cultural</h3>
+                    <p>En México, la lucha libre es un elemento cultural muy arraigado, considerada un arte y un espectáculo. Luchadores icónicos como <strong>El Santo</strong>, <strong>Blue Demon</strong> y <strong>Mil Máscaras</strong> se han convertido en leyendas.</p>
+                    <h4>En otros países</h4>
+                    <p>En Japón, la lucha libre (llamada <em>puroresu</em>) tiene un enfoque más deportivo y técnico.</p>
+                    <p>En Estados Unidos, con empresas como la <strong>WWE</strong>, se centra más en el espectáculo y las historias dramáticas entre luchadores.</p>
+                
+                    <h3>Espectáculo familiar</h3>
+                    <p>La lucha libre suele ser un evento que reúne a personas de todas las edades, gracias a su mezcla de acción, drama y comedia.</p>
+                </section>
+            </div>
+        </section>
+
+        <!-- Sección del equipo de docentes investigadores -->
+        <section id="investigators">
+            <div class="investigators-title">
+                <h2>Luchadores Destacados</h2><br>
+                <p>Conoce a difernetes luchadores destacados en sus paises</p>
+            </div>
+            <div class="investigators-row">
+                <div class="investigator">
+                    <figure>
+                        <img src="../images/blue_demon.png" alt="Blue Demon Jr.">
+                        <figcaption>Blue Demon Jr. <br> Luchador Mexicano</figcaption>
+                    </figure>
+                </div>
+                <div class="investigator">
+                    <figure>
+                        <img src="../images/antonio_inoki.png" alt="Antonio Inoki">
+                        <figcaption>Antonio Inoki <br> Luchador Japones</figcaption>
+                    </figure>
+                </div>
+                <div class="investigator">
+                    <figure>
+                        <img src="../images/john_cena.png" alt="John Cena">
+                        <figcaption>John Cena <br> Luchador Estadounidense</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de página con enlaces a redes sociales y contacto -->
+    <footer>
+        <!-- Enlaces a redes sociales -->
+        <div id="social_media">
+            <a href="https://www.facebook.com/fifuaq" target="_blank" aria-label="Facebook Facultad de Informatica">
+                <img src="../images/icons/Facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/InformaticaUAQ" target="_blank" aria-label="Twitter Facultad de Informatica">
+                <img src="../images/icons/Twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/@fifuaq" target="_blank" aria-label="YouTube Facultad de Informatica">
+                <img src="../images/icons/YouTube.png" alt="YouTube">
+            </a>
+            <a href="https://instagram.com/InformaticaUAQ/" target="_blank"
+                aria-label="Instagram Facultad de Informatica">
+                <img src="../images/icons/Instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <!-- Sección de mapa de sitio y contacto -->
+        <section id="contenido">
+            <div id="site_map">
+                <h3>Mapa de Sitio</h3>
+                <a href="index.html">Inicio</a>
+                <a href="mexicana.html">Lucha Libre Mexicana</a>
+                <a href="americana.html">Lucha Libre Americana</a>
+                <a href="japonesa.html">Lucha Libre Japonesa</a>
+            </div>
+        </section>
+
+        <!-- Derechos reservados -->
+        <div id="rights_reserved">
+            <p>ChagoTrejo | Santiago Trejo López |<br>&copy; 2024</p>
+        </div>
+    </footer>
+    <!-- Inclusión de librerías necesarias para funcionalidad de la página -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlaces a los scripts personalizados -->
+    <script src="../js/navbar_activo.js"></script>
+
+</body>
+
+</html>
