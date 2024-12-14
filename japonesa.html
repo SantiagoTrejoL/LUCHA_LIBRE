@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Definición del charset utilizado para la codificación de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Definición de la vista para dispositivos móviles, asegurando la escalabilidad adecuada -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descripción del sitio web para motores de búsqueda -->
+    <meta name="description" content="Lucha Libre Nacional e Internacional">
+    <!-- Título de la página que se muestra en la pestaña del navegador -->
+    <title>Lucha Libre</title>
+
+    <!-- Enlace a la fuente tipográfica Inter desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Enlace a la hoja de estilos de Bootstrap para diseñar el layout -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace al favicon que aparece en la pestaña del navegador -->
+    <link rel="icon" type="image/png" href="./images/icono.png">
+    <!-- Enlace a la hoja de estilos personalizada para esta página -->
+    <link rel="stylesheet" href="./css/japonesa.css">
+</head>
+
+<body>
+    <!-- Header del sitio, contiene la barra de navegación -->
+    <!-- Header del sitio, contiene la barra de navegación -->
+    <header>
+        <!-- Barra de navegación principal -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- Logo de la página que redirige al índice -->
+                <a class="navbar-brand" href="index.html" aria-label="Inicio">
+                    <img src="./images/icono.png" alt="Logo" width="300">
+                </a>
+                <!-- Botón para activar la visualización del menú en dispositivos pequeños -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"> <!-- Inicia Elemento de lista de navegación -->
+                            <a class="nav-link text-blue" href="index.html" id="inicio">Inicio</a>
+                        </li> <!-- Termina Elemento de lista de navegación -->
+
+                        <li class="nav-item">
+                            <a class="nav-link text-blue" href="mexicana.html" id="mexicana">Lucha Libre Mexicana</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-blue" href="americana.html" id="americana">Lucha Libre Americana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-blue" href="japonesa.html" id="japonesa">Lucha Libre Japonesa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-blue" href="luchadores.html" id="destacados">Luchadores Destacados</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="carousel">
+            <div id="news" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/imagen9.png" class="d-block w-100" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imagen6.jpg" class="d-block w-100" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imagen7.jpg" class="d-block w-100" alt="Imagen 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imagen8.jpg" class="d-block w-100" alt="Imagen 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imagen10.png" class="d-block w-100" alt="Imagen 5">
+                    </div>
+                </div>
+
+                <!-- Controles de navegación para el carrusel -->
+                <a class="carousel-control-prev" href="#news" role="button" data-slide="prev" aria-label="Anterior">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#news" role="button" data-slide="next" aria-label="Siguiente">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="mexicana_historia">
+            <div class="lucha_mexicana">
+                <h2>Historia</h2>
+                <p>La lucha libre mexicana comenzó a ganar popularidad en la década de 1930 con la creación de la
+                    Empresa Mexicana de Lucha Libre (hoy conocida como CMLL). En la década de 1950, figuras como
+                    <strong>El Santo</strong> y <strong>Blue Demon</strong> llevaron este deporte a un nivel de
+                    reconocimiento cultural, con combates que representaban historias de héroes y villanos.
+                </p>
+            </div>
+        </section>
+
+        <section id="mexicana_datos">
+            <div class="mexicana_datos">
+                <h2>Datos curiosos</h2>
+                
+                    <p>La máscara es un símbolo fundamental en la lucha libre mexicana, representando el honor y la
+                        tradición.</p>
+                    <p>Las "luchas de apuestas" (máscara contra máscara o máscara contra cabellera) son las más
+                        emocionantes y significativas.</p>
+                    <p> lucha libre fue reconocida como Patrimonio Cultural Intangible de la Ciudad de México en
+                        2018.</p>
+                    
+                
+            </div>
+        </section>
+
+        <section id="mexicana_luchadores">
+            <div class="mexicana_luchadores">
+                <h2>Luchadores destacados</h2>
+                
+                    <p><strong>El Santo</strong>: El Enmascarado de Plata, una leyenda dentro y fuera del ring.</p>
+                    <p><strong>Blue Demon</strong>: Rival y amigo de El Santo, protagonista de varias películas de
+                        lucha
+                        libre.</p>
+                    <p><strong>Mil Máscaras</strong>: Conocido como "El Hombre de las Mil Máscaras", pionero en la
+                        lucha
+                        libre internacional.</p>
+            </div>
+        </section>
+
+        <!-- Sección del equipo de docentes investigadores -->
+        <section id="luchadores">
+            <div class="luchadores-row">
+                <div class="luchador">
+                    <figure>
+                        <img src="./images/blue_demon.png" alt="Blue Demon Jr.">
+                        <figcaption>Blue Demon Jr.</figcaption>
+                    </figure>
+                </div>
+                <div class="luchador">
+                    <figure>
+                        <img src="./images/mil_mascaras.png" alt="Mil Mascaras">
+                        <figcaption>Mil Mascaras</figcaption>
+                    </figure>
+                </div>
+                <div class="luchador">
+                    <figure>
+                        <img src="./images/el_santo.png" alt="John Cena">
+                        <figcaption>El Santo</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Enlaces a redes sociales -->
+        <div id="social_media">
+            <a href="https://www.facebook.com/sami.trejo/" target="_blank" aria-label="Facebook">
+                <img src="./images/icons/Facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com/TrejoChago" target="_blank" aria-label="Twitter">
+                <img src="./images/icons/Twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/c/Chagotrejo" target="_blank" aria-label="YouTube">
+                <img src="./images/icons/YouTube.png" alt="YouTube">
+            </a>
+            <a href="https://www.instagram.com/santiago_trejo26/" target="_blank" aria-label="Instagram">
+                <img src="./images/icons/Instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <!-- Sección de mapa de sitio y contacto -->
+        <section id="contenido">
+            <div id="site_map">
+                <h3>Mapa de Sitio</h3>
+                <a href="index.html">Inicio</a>
+                <a href="mexicana.html">Lucha Libre Mexicana</a>
+                <a href="americana.html">Lucha Libre Americana</a>
+                <a href="japonesa.html">Lucha Libre Japonesa</a>
+                <a href="luchadores.html">Luchadores Destacados</a>
+            </div>
+        </section>
+        <!-- Derechos reservados -->
+        <div id="rights_reserved">
+            <p>ChagoTrejo | Santiago Trejo López |<br>&copy; 2024</p>
+        </div>
+    </footer>
+    <!-- Inclusión de librerías necesarias para funcionalidad de la página -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlaces a los scripts personalizados -->
+    <script src="./js/navbar_activo.js"></script>
+
+</body>
+
+</html>
