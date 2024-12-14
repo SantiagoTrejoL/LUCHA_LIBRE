@@ -34,6 +34,7 @@ body::before {
 
 .navbar-brand img {
     margin-right: 10px;
+    width: 25%;
 }
 
 .text-blue {
@@ -51,7 +52,13 @@ body::before {
 .nav-link:hover {
     color: #2563eb !important;
   } 
-
+.link_destacados{
+    color:black;
+    text-decoration: underline;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
 
 /* News Carousel Styles */
 #news .carousel {
@@ -187,10 +194,6 @@ figcaption{
     background-color: #495057; /* Gris más oscuro */
     padding: 40px;
     gap: 20px;
-}
-
-#site_map {
-    flex: 1;
 }
 
 #site_map h3{
