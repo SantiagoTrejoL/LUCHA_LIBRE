@@ -90,21 +90,21 @@ section ul li {
     border: none;
 }
 
-.lucha_mexicana {
+.lucha_japonesa {
     padding: 25px;
 }
 
-.lucha_mexicana,
-.mexicana_datos,
-.mexicana_luchadores h2 {
+.lucha_japonesa,
+.japonesa_datos,
+.japonesa_luchadores h2 {
     text-indent: 30px;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.lucha_mexicana, 
-.mexicana_datos,
-.mexicana_luchadores p {
+.lucha_japonesa, 
+.japonesa_datos,
+.japonesa_luchadores p {
     text-indent: 30px;
     text-align: justify;
     font-size: 20px;
@@ -250,7 +250,7 @@ figcaption{
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {
-    #about_us, #mexicana_historia, #mexicana_datos, #mexicana_luchadores, #luchadores {
+    #about_us, #japonesa_historia, #japonesa_datos, #japonesa_luchadores, #luchadores {
         flex-direction: column;
         align-items: center;
         text-align: center;
